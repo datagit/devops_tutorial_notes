@@ -1,3 +1,4 @@
+```java
 #Change permission on file by character
 chmod
 read(r), write(w), execute(x)
@@ -33,3 +34,4 @@ Other owner has read, execute permission: 4+1=5
 Remove all permission on file abc.txt
 $ sudo chmod -v 000 abc.txt
 ---------- 1 nguoidung nguoidung 0 Dec  9 15:12 abc.txt
+```

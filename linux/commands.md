@@ -1,5 +1,6 @@
-[sandbox](https://glitch.com/edit/#!/sincere-glacier-water?path=server.js%3A1%3A0)
-[explain command](https://explainshell.com/explain?cmd=sleep+2000)
+```java
+sandbox: https://glitch.com/edit/#!/sincere-glacier-water?path=server.js%3A1%3A0
+explain command: https://explainshell.com/explain?cmd=sleep+2000
 command [options] [arguments]
 Command	Description
 cat [filename]	Display file’s contents to the standard output device(usually your monitor).
@@ -38,9 +39,9 @@ who [options]	Display who is logged on.
 printenv print environment variables.
 export [options] relate environment variables.
 lsb_release -a Check ubuntu version
------------------------------------------------
-practices
+```
 ```bash
+# practices
 id
 whomai
 man id
