@@ -157,5 +157,10 @@ apt-get
 # Macos package management
 brew
 
+# how to view status of service
+# on linux
+systemctl status docker
+# on macos
+launchctl list | grep docker
 
 ```
