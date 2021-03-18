@@ -41,3 +41,29 @@ docker diff container-name-or-id #Theo dõi thay đổi các file trên containe
 docker logs -f container-name-or-id #Đọc log container
 docker stats container-name-or-id #Đo lường thông tin
 ```
+
+```java
+// https://xuanthulab.net/mang-network-bridge-trong-docker-ket-noi-cac-container-voi-nhau.html
+docker run -d --name c-php -h php -v /Users/datdao/Developer/Code/myCodePhp:/home/myCodePhp php:7.3-fpm
+
+docker images
+docker ps
+docker ps -a
+docker inspect php:7.3-fpm | grep Entrypoint -A 2
+docker exec -it c-php bash
+# now: inside container
+# inside container has a few available commands below
+docker-php-entrypoint     docker-php-ext-enable     docker-php-source
+docker-php-ext-configure  docker-php-ext-install
+
+// install extension
+// opcache
+docker-php-ext-configure opcache \
+    && docker-php-ext-install opcache
+// mysqli
+docker-php-ext-configure opcache \
+    && docker-php-ext-install mysqli
+// pdo_mysql
+docker-php-ext-configure opcache \
+    && docker-php-ext-install pdo_mysql
+```

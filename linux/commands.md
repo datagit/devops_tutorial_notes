@@ -139,6 +139,8 @@ kill -9 591
 
 # List all process on system
 ps aux
+lsof -i -P
+lsof -i :3306
 
 #View config of server linux
 cat /proc/cpuinfo
