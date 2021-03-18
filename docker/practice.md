@@ -1,4 +1,5 @@
 ```bash
+# docker shell commands: https://gist.github.com/tomysmile/4858246698b2b6e76cdb77770ae44b75
 # định danh của IMAGE là ID hoặc name:tag
 # search image from https://hub.docker.com/
 
