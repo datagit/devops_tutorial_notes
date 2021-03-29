@@ -265,4 +265,31 @@ Networking
                security groups
             private subnet: 10.0.10.0/24
                security groups
+   
 https://learning.oreilly.com/videos/complete-2020-aws/9781800566132/9781800566132-video7_9
+   Internet Gateways 
+      An internet gateway is a horizontally scaled, redundant, and highly available VPC component that allows  communication between instances in your VPC and the internet.
+      connect public subunet to internet
+      lab:
+         create an internet Gateway
+            name=webhosting-ig
+            attached VPC
+         create route table
+            name=public-ig-rt
+   NAT Gateways
+      connect private subnet to internet
+      IPv4 only
+      transfer charges
+         Cost: NAT <-> different AZ
+         NAT <-> Same Region S3 is free
+         NAT <-> Same AZ EC2 is free
+   Elastic IP Address
+      a static, public IPv4 address
+      Associate it with any Network Device
+      IPv4 only
+      One EIPfor one running instatnce is free
+         additional EIP at $0.005/h(Frankfurt)
+      EIPs not assigned are charged($0.005/h)
+   Egress only internet Gateway
+      IPv6 only
+      Simimlar to a NAT device, but IPv6
