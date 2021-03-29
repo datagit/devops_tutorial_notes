@@ -293,3 +293,4 @@ https://learning.oreilly.com/videos/complete-2020-aws/9781800566132/978180056613
    Egress only internet Gateway
       IPv6 only
       Simimlar to a NAT device, but IPv6
+https://learning.oreilly.com/videos/complete-2020-aws/9781800566132/9781800566132-video7_10
