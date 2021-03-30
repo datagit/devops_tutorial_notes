@@ -294,3 +294,9 @@ https://learning.oreilly.com/videos/complete-2020-aws/9781800566132/978180056613
       IPv6 only
       Simimlar to a NAT device, but IPv6
 https://learning.oreilly.com/videos/complete-2020-aws/9781800566132/9781800566132-video7_10
+Security Group
+   https://learning.oreilly.com/videos/complete-2020-aws/9781800566132/9781800566132-video7_13
+   Is a virtual firewall
+   Controls inbound and outbound tracffic
+   Assign up to five security group to an instance
+   Act at the instance level, not the subnet level
