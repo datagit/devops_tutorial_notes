@@ -45,3 +45,37 @@ EC2
          Purchase unused capacity of up to 90%. Prices fluctuate with supply and demand
       Dedecated
          A physical EC2 server dedicated for your use. The most expensive option
+Understanding EBS Volumes
+   EBS(Elastic Block Store)
+      Storage volumes that you can attach to your EC2 instances.
+   mission critical
+      Production workloads
+      Highly available
+         Automaticcally replicated within a single
+         Availability Zon to protect against hardware failures
+      Scalable
+         Dynamiccally increase capacity and change the type volume with no downtime or performance impact to your live systems.
+   LAB
+      Availability Zone
+      Attach Volume to instance
+Exploring Elastic Load Balancer
+   What is A Load Balancer?
+      A Load balancer distributes network traffic to group of servers.
+   3 options to choose from
+      Application load balancer
+         HTTP and HTTPS
+         they operate at Layer 7 and are application-aware.
+         config HTTP HEADER
+      Network Load Balancer
+         TCP and high performance
+      Classic Load Balancer(legacy)
+         HTTP/HTTPS and TCP
+Route53 - Demo
+   https://learn.acloud.guru/course/aws-certified-developer-associate/learn/d08a2b54-37e1-d237-21a7-55eea7c0fb2d/e264a7ea-3187-87d1-6687-cb53ff8b48f5/watch
+   Route53 is Amazon's DNS service.
+      Allows you to map a domain name that you own to:
+         EC2 Instances
+         Load Balancers
+         S3 Buckets
+ssh -i "MyNewKeyPair.cer" ec2-user@ec2-34-230-74-208.compute-1.amazonaws.com
+sudo yum -y install httpd

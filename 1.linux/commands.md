@@ -82,7 +82,11 @@ find /etc -name "*.conf"
 
 useradd user01
 useradd user02
+
+sudo su
+sudo su - user01
 su user01
+
 userdel - user02
 
 whoami
