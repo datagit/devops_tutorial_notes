@@ -77,5 +77,10 @@ Route53 - Demo
          EC2 Instances
          Load Balancers
          S3 Buckets
-ssh -i "MyNewKeyPair.cer" ec2-user@ec2-34-230-74-208.compute-1.amazonaws.com
+
 sudo yum -y install httpd
+sudo systemctl start httpd
+sudo systemctl enable httpd
+echo "<html><h1>Hello from Amazon ES2</h1></html>" > /var/www/html/index.html    
+
+ssh -i "MyAwsKeyPairLab1.cer" ec2-user@3.86.196.240
