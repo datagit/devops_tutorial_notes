@@ -9,7 +9,7 @@ IAM
    Roles
       You create roles and can then assign them to users, applications, and services to give access to AWS resources.
    Policy
-      Adocument that defines one or more permissions.
+      A document that defines one or more permissions.
       An AIM policy can be attached to a user, group or role.
    https://learn.acloud.guru/course/aws-certified-developer-associate/learn/9df1a869-ca43-95a9-4b47-70c611ac3cab/e6e9fcbf-7ff2-e9de-d3db-1404fd7adb5c/watch
    https://learn.acloud.guru/handson/4b620748-f44f-408a-a42b-f727a208e952/course/aws-certified-developer-associate
@@ -77,4 +77,12 @@ Route53 - Demo
          EC2 Instances
          Load Balancers
          S3 Buckets
-LAB
+Parameters Store
+   https://learn.acloud.guru/course/aws-certified-developer-associate/learn/d08a2b54-37e1-d237-21a7-55eea7c0fb2d/3be70f10-6994-35e7-5028-00aacc5fb4ec/watch
+
+   Integrated with AWS Services
+      EC2
+      CloudInformation
+      Lambda Function
+      CodeBuild
+      CodePipeline
