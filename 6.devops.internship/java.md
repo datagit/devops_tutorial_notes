@@ -1,0 +1,22 @@
+Plan
+Code
+  git
+  JIRA
+Build
+  STB
+  Maven
+Test
+  SE
+  JUNIT
+Release
+  Jenkins
+  CodeShip
+Deploy
+  AWS
+  Docker
+Operate
+  ANSIBLE
+  Kubernetes
+Monitor
+  DATADOG
+  Nagios

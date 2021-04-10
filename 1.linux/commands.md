@@ -39,9 +39,15 @@ who [options]	Display who is logged on.
 printenv print environment variables.
 export [options] relate environment variables.
 lsb_release -a Check ubuntu version
+cat /etc/os-release Check ubuntu version
+cat /proc/version Check ubuntu version
+cat /etc/issue Check ubuntu version
+
 ```
 ```bash
 # practices
+# jenkins@b98fd9e34b97:/$
+# currentUser@hostName
 id
 whomai
 man id
