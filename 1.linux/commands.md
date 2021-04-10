@@ -48,6 +48,8 @@ cat /etc/issue Check ubuntu version
 # practices
 # jenkins@b98fd9e34b97:/$
 # currentUser@hostName
+sudo cat /etc/shadow | grep www-data
+www-data:*:16519:0:99999:7:::
 id
 whomai
 man id
