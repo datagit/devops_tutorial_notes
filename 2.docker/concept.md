@@ -8,3 +8,15 @@
 - các CONTAINER khi được tạo ra mặc định đã connect vào 3 network default này
 - chúng ta có thể tạo thêm network trong docker `docker network create -d bridge my-bridge-network`
 ```
+container
+```java
+- container name
+- hostname
+- links
+- expose port
+- network
+- inspect
+- logs
+- entrypoint
+- cmd
+```
