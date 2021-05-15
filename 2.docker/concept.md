@@ -6,7 +6,7 @@
 - các CONTAINER có thể chứa nhiều services(apache, php, mysql,...)
 - mặc định docker có 3 network default `docker network ls` => bridge, host, none
 - các CONTAINER khi được tạo ra mặc định đã connect vào 3 network default này
-- chúng ta có thể tạo thêm network trong docker `docker network create -d bridge my-bridge-network`
+- chúng ta có thể tạo thêm network trong docker `docker network create --driver bridge my-bridge-network`
 ```
 docker
 ```java
